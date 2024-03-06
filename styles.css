@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital@1&display=swap')
+
+body{
+    background-color: #edeaff;
+}
+.stopwatch{
+    width: 1000px;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(./images/background1.jpg);
+    background-size:contain;
+    background-position: center;
+    text-align: center;
+    padding: 100px 10px;
+    color: #ffffff;
+    margin: 150px auto 0;
+    box-shadow: 0 30px 30px rgba(0, 0 , 0 , 0.5 );
+    font-family: 'Courier New',  monospace;
+
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
